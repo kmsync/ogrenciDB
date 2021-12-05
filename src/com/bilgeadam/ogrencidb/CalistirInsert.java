@@ -21,14 +21,12 @@ public class CalistirInsert {
                 System.out.println("Insert edilemedi!");
 
 
-
             st.close();
             conn.close();
 
         } catch (Exception e) {
             System.err.println("Hata:" + e.getMessage());
         }
-
 
     }
 }

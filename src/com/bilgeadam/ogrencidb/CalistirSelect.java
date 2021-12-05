@@ -42,7 +42,5 @@ public class CalistirSelect {
         {
             System.err.println("Hata:" + e.getMessage());
         }
-
-
     }
 }

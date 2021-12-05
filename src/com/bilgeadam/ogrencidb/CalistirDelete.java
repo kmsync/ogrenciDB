@@ -1,8 +1,11 @@
 package com.bilgeadam.ogrencidb;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 
-public class CalistirUpdate {
+public class CalistirDelete {
 
     public static void main(String[] args) throws SQLException {
 
